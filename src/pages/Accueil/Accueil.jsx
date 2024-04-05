@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Accueil.css'
 
 function Accueil() {
+
     const [screenSize, setScreenSize] = useState(getScreenSize());
 
     useEffect(() => {
@@ -15,7 +16,7 @@ function Accueil() {
         };
     }, []);
 
-  
+    // récupère la taille de l'écran
     function getScreenSize() {
         if (window.matchMedia('(max-width: 767px)').matches) {
         return 'mobile';
@@ -26,6 +27,7 @@ function Accueil() {
         }
     }
 
+    // Permet de changer l'image en fonction de la taille d'écran
     let imageSource;
     if (screenSize === 'mobile') {
         imageSource = '../../../img/hero-bg-mobile.jpg';
@@ -35,6 +37,7 @@ function Accueil() {
         imageSource = '../../../img/hero-bg.jpg';
     }
 
+    // Permet au bouton de faire un scroll automatique vers la section à propos lors du clic
     const scrollAutomatique = () => {
         const titre = document.getElementById('a-propos');
         if (titre) {
@@ -71,24 +74,24 @@ function Accueil() {
                     <img src="../../../img/john-doe-about.jpg" alt="Un homme blanc aux cheveux châtain qui travail" />
                     <h3>Mes compétences</h3>
                     <p>HTML5 90%</p>
-                    <div class="progress" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar bg-danger" style={{width: `90%`}}></div>
+                    <div className="progress" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-danger" style={{width: `90%`}}></div>
                     </div>
                     <p>CSS 80%</p>
-                    <div class="progress" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar bg-info" style={{width: `80%`}}></div>
+                    <div className="progress" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-info" style={{width: `80%`}}></div>
                     </div>
                     <p>JAVASCRIPT 70%</p>
-                    <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar bg-warning" style={{width: `70%`}}></div>
+                    <div className="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-warning" style={{width: `70%`}}></div>
                     </div>
                     <p>PHP 60%</p>
-                    <div class="progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar bg-success" style={{width: `60%`}}></div>
+                    <div className="progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-success" style={{width: `60%`}}></div>
                     </div>
                     <p>REACT 50%</p>
-                    <div class="progress" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style={{width: `50%`}}></div>
+                    <div className="progress" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar" style={{width: `50%`}}></div>
                     </div>
                 </div>
             </div>
