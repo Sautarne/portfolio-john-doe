@@ -62,7 +62,7 @@ function Services () {
                     
                 <ServicesType
                     titreServices="Développement Web"
-                    texteServices="Le déceloppement de sites web repose sur l'utilisation des langages HTML, CSS, Javascript et PHP."
+                    texteServices="Le développement de sites web repose sur l'utilisation des langages HTML, CSS, Javascript et PHP."
                 >
                     <FontAwesomeIcon className='icon' icon={faFileCode}/>
                 </ServicesType>

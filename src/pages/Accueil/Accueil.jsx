@@ -41,9 +41,9 @@ function Accueil() {
     const scrollAutomatique = () => {
         const titre = document.getElementById('a-propos');
         if (titre) {
-          titre.scrollIntoView({ behavior: 'smooth' });
+            titre.scrollIntoView({ behavior: 'smooth' });
         }
-      };
+    };
 
     return (
         <div className='accueil-page'>
