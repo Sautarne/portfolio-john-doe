@@ -1,0 +1,50 @@
+
+.services-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services-titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+.services-page img {
+    width: 100%;
+    max-height: 150px;
+}
+
+.services-titre h2 {
+    font-weight: 600;
+    font-size: 2em;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.services-titre h3 {
+    font-size: 1.2em;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.trait-bleu {
+    height: 1px;
+    width: 80px;
+    border: solid #0d6efd 2px;
+}
+
+.services {
+    margin-bottom: 110px;
+}
+
+
+@media screen and (min-width: 767px) {
+    .services {
+        max-width: 1024px;
+    }
+}

@@ -1,0 +1,70 @@
+.services-type {
+    background-color: white;
+    width: 90%;
+    border-radius: 15px;
+    height: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    margin-top: 50px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    color: #0d6efd;
+}
+
+.services-type:hover .icon{
+    color: #298eff;
+}
+
+.services-type h2 {
+    font-weight: 600;
+    font-size: 2em;
+    width: 80%;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.services-type p {
+    width: 80%;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 767px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-type{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 767px) {
+
+    .services-type h2 {
+        font-size: 1.5em;
+    }
+
+    .services-type p {
+        font-size: 1em;
+    }
+
+    .services {
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-type{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
