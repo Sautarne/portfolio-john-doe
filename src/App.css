@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 .app{
-    background-color: #EEE;
+    background-color: #f5f5f5;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
+    color: #444;
 }
