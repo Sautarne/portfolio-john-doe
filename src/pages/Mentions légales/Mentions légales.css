@@ -1,0 +1,39 @@
+.mentions-légales-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+.mentions-légales-page .trait-bleu {
+    width: 150px;
+}
+
+.mentions-léagels-titre {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.mentions-légales-page .trait-bleu {
+    margin-bottom: 50px;
+}
+
+.accordion {
+    width: 95%;
+}
+
+.mentions-légales-page p strong {
+    font-size: 1.5em;
+}
+
+.mentions-légales-page p a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 767px) {
+    .accordion {
+        max-width: 1024px;
+    }
+}

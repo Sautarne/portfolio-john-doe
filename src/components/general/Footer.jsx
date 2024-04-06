@@ -61,7 +61,7 @@ function Footer() {
                 <Link to="/#a-propos" onClick={() => changementDePageAPropos('accueil')}> À propos </Link>
                 <Link to="/services#nav" onClick={() => changementDePage('services')}> Services </Link>
                 <Link to="/me-contacter#nav" onClick={() => changementDePage('me-contacter')}> Me contacter </Link>
-                <Link to="/mentions-légales#nav" onClick={() => changementDePage('')}> Mentions légales </Link>
+                <Link to="/mentions-légales#nav" onClick={() => changementDePage('mentions-légales')}> Mentions légales </Link>
             </div>
             <div className='dernière-réalisations'>
                 <h2>Mes dernières réalisations</h2>
