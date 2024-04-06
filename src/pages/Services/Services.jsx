@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Services.css'
+import './Services.css';
 import ServicesType from '../../components/Services/Services-type';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDisplay, faFileCode , faMagnifyingGlassDollar} from "@fortawesome/free-solid-svg-icons";

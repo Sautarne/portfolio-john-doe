@@ -7,6 +7,7 @@ import Services from './pages/Services/Services.jsx';
 import Realisations from './pages/Realisations.jsx';
 import Blog from './pages/Blog.jsx';
 import MeContacter from './pages/Me contacter.jsx';
+import MentionsLégales from './pages/Mentions légales/Mentions légales.jsx';
 import Footer from './components/general/Footer.jsx';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/realisations' element={<Realisations />}></Route>
           <Route path='/blog' element={<Blog />}></Route>
           <Route path='/me-Contacter' element={<MeContacter />}></Route>
+          <Route path='/mentions-légales' element={<MentionsLégales />}></Route>
       </Routes>
 
       <Footer/>
