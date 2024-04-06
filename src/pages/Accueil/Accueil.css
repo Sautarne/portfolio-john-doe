@@ -109,6 +109,7 @@
 
     .a-propos {
         width: 90%;
+        max-width: 1024px;
         padding: 40px;
         margin: 40px 0 60px 0;
         display: grid;
