@@ -22,7 +22,6 @@
 .services-titre h2 {
     font-weight: 600;
     font-size: 2em;
-    width: 60%;
     text-transform: uppercase;
 }
 
@@ -46,5 +45,23 @@
 @media screen and (min-width: 767px) {
     .services {
         max-width: 1024px;
+    }
+
+    .services-titre h2 {
+        font-weight: 600;
+        font-size: 2.6em;
+        text-transform: uppercase;
+    }
+
+    .services-titre h3 {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .trait-bleu {
+        height: 1px;
+        width: 300px;
+        border: solid #0d6efd 2px;
     }
 }
