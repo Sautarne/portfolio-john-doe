@@ -1,0 +1,52 @@
+.me-contacter-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../../public/img/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0,105, 255, 0.5);
+    background-blend-mode: overlay;
+}
+
+.me-contacter-page-contenu {
+    background-color: white;
+    width: 90%;
+    margin: 15px 0 60px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.me-contacter-page h2 {
+    text-transform: uppercase;
+}
+
+.me-contacter-page p {
+    width: 70%;
+    text-align: center;
+}
+
+.me-contacter-page h3 {
+    font-weight: 600;
+    font-size: 2em;
+    border-bottom: 2px solid #0d6efd;
+    margin-bottom: 30px;
+}
+
+.coordonnees h3 {
+    margin-bottom: 30px;
+}
+
+.coordonnees a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #444;
+}
+
+.maps {
+    margin: 15px 0px 20px 0px;
+}
