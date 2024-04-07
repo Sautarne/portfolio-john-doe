@@ -42,7 +42,7 @@ function Services () {
 
     return (
         <div className='services-page'>
-            <img src={imageSource} alt="" />
+            <img className='image-en-tete' src={imageSource} alt="" />
             <div className="services-titre">
                 <h2>
                     Mon offre de services
