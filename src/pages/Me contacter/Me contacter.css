@@ -50,3 +50,9 @@
 .maps {
     margin: 15px 0px 20px 0px;
 }
+
+@media screen and (min-width: 767px) {
+    .me-contacter-page-contenu {
+        max-width: 1024px;
+    }
+}

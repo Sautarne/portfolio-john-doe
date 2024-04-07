@@ -9,6 +9,7 @@ import Blog from './pages/Blog/Blog.jsx';
 import MeContacter from './pages/Me contacter/Me contacter.jsx';
 import MentionsLégales from './pages/Mentions légales/Mentions légales.jsx';
 import Footer from './components/general/Footer.jsx';
+import BoutonRetourEnHaut from './components/general/Bouton retour en haut.jsx';
 
 function App() {
   return (  
@@ -23,8 +24,11 @@ function App() {
           <Route path='/me-Contacter' element={<MeContacter />}></Route>
           <Route path='/mentions-légales' element={<MentionsLégales />}></Route>
       </Routes>
+      
+      <BoutonRetourEnHaut/>
 
       <Footer/>
+
 
     </div>
   );
