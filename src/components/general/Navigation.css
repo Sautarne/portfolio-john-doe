@@ -6,3 +6,10 @@ header{
     width: 90%;
     padding: 0;
 }
+
+
+@media screen and (min-width: 767px) {
+    .container-fluid {
+        max-width: 1024px;
+    }
+}
