@@ -1,0 +1,39 @@
+.blog-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-en-tete {
+    width: 100%;
+    max-height: 150px;
+}
+
+.blog-titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+}
+
+.blog-page h2 {
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.trait-bleu {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.espace-carte {
+    margin-bottom: 50px;
+}
+
+.card {
+    padding: 0;
+}
