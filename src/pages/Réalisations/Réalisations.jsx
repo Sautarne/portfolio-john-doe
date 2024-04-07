@@ -52,7 +52,7 @@ function Realisations () {
             <div className="espace-carte">
                 <div className="container">
                     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0">
-                        <div class="card col col-md-6 my-2">
+                        <div class="card col col-md-6 my-2" id='fresh-food'>
                             <img src="../../img/portfolio/fresh-food.jpg" class="card-img-top" alt="Panier avec des légumes"/>
                             <div class="card-body d-flex flex-column align-items-center">
                                 <h5 class="card-title fw-semibold fs-2">Fresh Food</h5>
@@ -63,7 +63,7 @@ function Realisations () {
                                 <small class="text-body-secondary fw-semibold fs-6">Site réalisé avec PHP et MySQL</small>
                             </div>
                         </div>
-                        <div class="card col col-md-6 my-2">
+                        <div class="card col col-md-6 my-2" id='restaurant-akira'>
                             <img src="../../img/portfolio/restaurant-japonais.jpg" class="card-img-top" alt="Assortiments de sushis"/>
                             <div class="card-body d-flex flex-column align-items-center">
                                 <h5 class="card-title fw-semibold fs-2">Restaurant Akira</h5>
@@ -74,7 +74,7 @@ function Realisations () {
                                 <small class="text-body-secondary fw-semibold fs-6">Site réaliisé avec WordPress</small>
                             </div>
                         </div>
-                        <div class="card col col-md-6 my-2">
+                        <div class="card col col-md-6 my-2" id='espace-bien-être'>
                             <img src="../../img/portfolio/espace-bien-etre.jpg" class="card-img-top" alt="Image avec un couché de soleil et une status de bouddha"/>
                             <div class="card-body d-flex flex-column align-items-center">
                                 <h5 class="card-title fw-semibold fs-2">Espace bien-être</h5>

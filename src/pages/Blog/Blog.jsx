@@ -52,7 +52,7 @@ function Blog () {
             <div className="espace-carte">
                 <div className="container">
                     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0">
-                        <div class="card col col-md-6 my-2">
+                        <div class="card col col-md-6 my-2" id='coder-son-site-en-HTML/CSS'>
                             <img src="../../img/blog/coder.jpg" class="card-img-top" alt="Panier avec des légumes"/>
                             <div class="card-body">
                                 <h5 class="card-title fw-semibold fs-2">Coder son site en HTML/CSS</h5>
@@ -63,7 +63,7 @@ function Blog () {
                                 <small class="text-body-secondary fw-semibold fs-6">Publié le 22 août 2022</small>
                             </div>
                         </div>
-                        <div class="card col col-md-6 my-2">
+                        <div class="card col col-md-6 my-2" id='vendre-ses-produits-sur-le-web'>
                             <img src="../../img/blog/croissance.jpg" class="card-img-top" alt="Assortiments de sushis"/>
                             <div class="card-body">
                                 <h5 class="card-title fw-semibold fs-2">Vendre ses produits sur le web</h5>
@@ -74,10 +74,10 @@ function Blog () {
                                 <small class="text-body-secondary fw-semibold fs-6">Publié le 20 août 2022</small>
                             </div>
                         </div>
-                        <div class="card col col-md-6 my-2">
+                        <div class="card col col-md-6 my-2" id='se-positionner-sur-google'>
                             <img src="../../img/blog/google.jpg" class="card-img-top" alt="Image avec un couché de soleil et une status de bouddha"/>
                             <div class="card-body">
-                                <h5 class="card-title fw-semibold fs-2">Espace bien-être</h5>
+                                <h5 class="card-title fw-semibold fs-2">Se positionner sur Google</h5>
                                 <p class="card-text">Some quick exemple text to build on the card title and make up the bulk of the card-s content.</p>
                                 <button type="button" class="btn btn btn-primary">Lire la suite</button>
                             </div>
@@ -88,7 +88,7 @@ function Blog () {
                         <div class="card col col-md-6 my-2">
                             <img src="../../img/blog/screens.jpg" class="card-img-top" alt="Image avec un couché de soleil et une status de bouddha"/>
                             <div class="card-body">
-                                <h5 class="card-title fw-semibold fs-2">Espace bien-être</h5>
+                                <h5 class="card-title fw-semibold fs-2">Coder en responsive design</h5>
                                 <p class="card-text">Some quick exemple text to build on the card title and make up the bulk of the card-s content.</p>
                                 <button type="button" class="btn btn btn-primary">Lire la suite</button>
                             </div>
@@ -99,7 +99,7 @@ function Blog () {
                         <div class="card col col-md-6 my-2">
                             <img src="../../img/blog/seo.jpg" class="card-img-top" alt="Image avec un couché de soleil et une status de bouddha"/>
                             <div class="card-body">
-                                <h5 class="card-title fw-semibold fs-2">Espace bien-être</h5>
+                                <h5 class="card-title fw-semibold fs-2">Techniques de référencement</h5>
                                 <p class="card-text">Some quick exemple text to build on the card title and make up the bulk of the card-s content.</p>
                                 <button type="button" class="btn btn btn-primary">Lire la suite</button>
                             </div>
@@ -110,7 +110,7 @@ function Blog () {
                         <div class="card col col-md-6 my-2">
                             <img src="../../img/blog/technos.png" class="card-img-top" alt="Image avec un couché de soleil et une status de bouddha"/>
                             <div class="card-body">
-                                <h5 class="card-title fw-semibold fs-2">Espace bien-être</h5>
+                                <h5 class="card-title fw-semibold fs-2">Apprendre à coder</h5>
                                 <p class="card-text">Some quick exemple text to build on the card title and make up the bulk of the card-s content.</p>
                                 <button type="button" class="btn btn btn-primary">Lire la suite</button>
                             </div>
